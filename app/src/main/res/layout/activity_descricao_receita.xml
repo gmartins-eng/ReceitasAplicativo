@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imagemreceita"
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            app:srcCompat="@drawable/camarao" />
+
+        <TextView
+            android:id="@+id/titulodareceita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#546E49"
+            android:text="Massa com Camarão"
+            android:textColor="#546F4A"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descreceita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredientes: \n- 250g de massa (spaghetti ou fettuccine) \n- 300g de camarão limpo \n- 2 colheres de sopa de azeite \n- 3 dentes de alho picados \n- 1/2 xícara de vinho branco seco (opcional) \n- 200g de creme de leite \n1/- 2 limão (suco) \n- Sal e pimenta a gosto \n- Salsinha picada para finalizar \nModo de preparo:  \nCozinhe a massa conforme as instruções da embalagem e reserve. \nAqueça o azeite em uma frigideira grande e refogue o alho até dourar. \nAdicione os camarões, tempere com sal e pimenta, e refogue por 2-3 minutos. \nSe usar vinho, despeje na frigideira e deixe evaporar. \nAcrescente o creme de leite e o suco de limão, mexendo até formar um molho homogêneo. \nMisture a massa ao molho, ajustando os temperos se necessário. Finalize com salsinha picada e sirva imediatamente. \nBom apetite! 🍤🍝" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

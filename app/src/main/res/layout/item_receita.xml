@@ -27,4 +27,12 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
+    <Button
+        android:id="@+id/bt_verreceita"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:background="#F1E7D2"
+        android:text="Ver"
+        android:textColorLink="#F1E7D2" />
+
 </LinearLayout>
