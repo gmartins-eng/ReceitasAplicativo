@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReceitasAplicativo"
         tools:targetApi="31">
+
+        <activity android:name=".RegistroActivity">
+        </activity>
+
+        <activity
+            android:name=".AdicionarReceitaActivity" />
+        <activity
+            android:name=".DescricaoaReceita" />
+
+        <activity
+            android:name=".Tela2"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

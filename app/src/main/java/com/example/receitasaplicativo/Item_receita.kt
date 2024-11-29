@@ -10,16 +10,16 @@ import androidx.appcompat.app.AppCompatActivity
 
 class Item_receita : AppCompatActivity() {
 
-    private lateinit var bt_verreceita : Button
+    private lateinit var verReceitaButton : Button
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.item_receita)
 
-        bt_verreceita = findViewById(R.id.bt_verreceita)
+        verReceitaButton = findViewById(R.id.verReceitaButton)
 
-        bt_verreceita.setOnClickListener{
+        verReceitaButton.setOnClickListener{
                 var intent = Intent(applicationContext, DescricaoaReceita::class.java)
                 startActivity(intent)
             }

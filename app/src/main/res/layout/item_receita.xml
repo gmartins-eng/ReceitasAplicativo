@@ -3,13 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/tvRecipeName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="Nome da Receita"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -25,13 +26,13 @@
         android:id="@+id/descricao_receita"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Descrição da Receita" />
 
     <Button
-        android:id="@+id/bt_verreceita"
+        android:id="@+id/verReceitaButton"
         android:layout_width="wrap_content"
         android:layout_height="37dp"
-        android:background="#F1E7D2"
+        android:background="@color/brown"
         android:text="Ver"
         android:textColorLink="#F1E7D2" />
 

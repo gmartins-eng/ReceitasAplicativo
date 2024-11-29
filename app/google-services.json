@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "12549724046",
+    "project_id": "receitasaplicativo",
+    "storage_bucket": "receitasaplicativo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:12549724046:android:9141db7889f04d801ff6df",
+        "android_client_info": {
+          "package_name": "com.example.receitasaplicativo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "12549724046-ui4ahn00e8ioc7im8r3q14ptmjgio5f7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.receitasaplicativo",
+            "certificate_hash": "ec44d3ee077cbdaf9bbde8f6f1bb9f8741ac68f3"
+          }
+        },
+        {
+          "client_id": "12549724046-gii8kncr44f45msvjrh7go8ele3rp9i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKei-fedyLRdei-allzzR2w-sv6EaKFZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "12549724046-gii8kncr44f45msvjrh7go8ele3rp9i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
